@@ -1,13 +1,22 @@
 {
   "expo": {
-    "name": "AfriFlowMobile",
-    "slug": "AfriFlowMobile",
+    "name": "AfriFlow",
+    "slug": "afriflow",
+    "owner": "itsjustjay",
     "version": "1.0.0",
     "orientation": "portrait",
+    "platforms": [
+      "android",
+      "ios",
+      "web"
+    ],
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
     },
     "android": {
       "adaptiveIcon": {
@@ -18,8 +27,10 @@
       },
       "predictiveBackGestureEnabled": false
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "extra": {
+      "eas": {
+        "projectId": "a711fd9b-ab55-4e0c-a973-7d8367c551a3"
+      }
     }
   }
 }
